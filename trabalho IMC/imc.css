@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0%;  
+}
+
+body {
+
+    box-sizing: content-box;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.7;
+    color: black;
+    background-image: url(V4-Academia-162-scaled.jpg);
+}
+
+header h2 {
+
+    font-size: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+nav h3 {
+
+    border: 2px solid paleturquoise;
+    border-radius: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 20px;
+    color: paleturquoise;
+}
+
+section {
+
+    box-sizing: border-box;
+    background: linear-gradient(135deg, rgba(128, 0, 21, 0.795), rgba(32, 16, 61, 0.795)); 
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    color: azure;
+    border: 1px solid rgb(109, 14, 45);
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+input {
+
+    margin-top: 20px;
+    border-radius: 50px;
+    color: purple;
+}
+
+button {
+
+    color: black;
+    background-color: purple;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+button:hover {
+
+    background-color: red;
+    font-style: oblique;
+}

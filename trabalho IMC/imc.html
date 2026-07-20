@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia - IMC teste</title>
+    <link rel="stylesheet" href="imc.css">
+    <script src="imc.js"></script>
+</head>
+<body>
+
+    <header>
+    <h2>Bem vindo ao IMC teste, seu site para descobrir o seu Indice de massa corporal!</h2>
+    </header>
+
+    <main>
+
+        <nav>
+        <h3>Insira seus dados nos campos abaixo:</h3>
+        </nav>
+
+        <section>
+        <label for="peso">PESO</label> <br>
+        <input type="number" id="peso">
+        <br>
+        <label for="altura">ALTURA(METRO)</label> <br>
+        <input type="number" id="altura">
+
+        <p id="valorImc"></p>
+        <P id="resultado"></P>
+    
+        <br>
+        <button onclick="calcular()">Calcular</button>
+
+        </section>
+    </main>
+      
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    line-height: 1.7;
+
+    color: black;
+    background-color: whitesmoke;
+}
+
+header {
+
+    padding: 10px;
+    background: linear-gradient(135deg, blue, purple);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+header h1 {
+
+    font-size: 40px;
+    margin-top: 5px;
+}
+header p {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-top: 05px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header img {
+    margin-top: 10px;
+}
+
+header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+
+}
+
+section {
+        padding: 20px;
+        margin: 20px auto;
+        box-shadow: 0 4px 10px rgba(9, 9, 9, 0.3);
+        border-radius: 20px;
+    }
+
+section h3 {
+
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 15px;
+}
+
+article {
+
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border: 1px groove rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 0 1px 2.5px rgba(9, 9, 9, 0.3);
+    cursor: context-menu;
+}
+
+section a {
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+
+    color: red;
+}
+
+footer {
+
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+footer a {
+
+     color: purple;
+     text-decoration: none;
+ 
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: underline;
+}
