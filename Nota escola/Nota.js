@@ -1,7 +1,12 @@
-const valorJantar = prompt("Valor do Jantar R$: ");
+function calcular(){
 
-const valorGarcon = Number(valorJantar) * 0.10;
-const valorTotal = Number(valorJantar) + valorGarcon;
+    let nome = document.getElementById("nomeFilme").value;
+    let tempo = document.getElementById("tempoFilme").value;
+    console.log("tempo:" + tempo);
 
-alert("Valor total: R$ " + valorTotal);
+    const horasFilme = Math.floor(tempo / 60);
+    const minutos = tempo - horasFilme * 60;
 
+    document.getElementById("resultado1").textContent = nome;
+    document.getElementById("resultado2").textContent = minutos;
+}
