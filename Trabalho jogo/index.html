@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho jogo</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+
+    <header> 
+        <h1>Jogo da adivinhação</h1>
+    </header>
+    
+    <nav>
+        <h3>Nesse jogo você terá que chutar um numero de 1 a 100 <br>te daremos algumas dicas e você tem somente 10 chances para tentar acertar</h3>
+        <h4>Boa sorte!</h4>
+    </nav>
+    
+    <article>
+        <input type="number" id="valor" placeholder="diga seu chute"> <br>
+
+        <button type="button" onclick="chute()">chute</button>
+        <button type="button" onclick="resetar()">resetar</button>
+
+        <p id="tentativa"> Tentativa numero: </p>
+        <p id="geral"></p>
+        
+    </article>
+<footer>
+    <br>_________________________<br>Feito por Victor Soares👻
+</footer>    
+</main>
+
+</body>
+</html>
