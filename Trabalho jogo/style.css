@@ -40,10 +40,22 @@ footer {
     margin-top: 60px;
 }
 
+input {
+
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: rgba(137, 43, 226, 0.651);
+    font-size: 25px;
+}
+
 button {
 
+    margin-top: 15px;
     color: rgb(3, 3, 3);
     background-color: blueviolet;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 15px;
 }
 
 button:hover {
@@ -52,8 +64,7 @@ button:hover {
     font-style: oblique;
 }
 
-input {
+p {
 
-    border-radius: 20px;
-    background-color: rgba(137, 43, 226, 0.651);
+    color: rgb(198, 201, 43);
 }
