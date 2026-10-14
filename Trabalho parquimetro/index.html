@@ -11,22 +11,26 @@
     <header>
         <h1>Bem vindo ao Parquimetro!</h1>
     </header>
-    <article><h2>Tabela de valores:</h2>
+    <article>
+        
+    </article>
+    <main>
+
+        <h2>Deposite o dinheiro para conseguir a vaga.</h2>
+        <input type="number" id="valorDeposito" placeholder="Valor a depositar"> <br>
+
+        <button onclick="parquimetroMostrar.depositar()">Depositar</button>
+
+        <p id="horasNoParquimetro">Você tem: 0h no parquimetro</p>
+        <p id="troco"></p>
+        <p id="semDinheiro"></p>
+    </main>
+    <footer>
+        <h2>Tabela de valores:</h2>
         <P>R$ 3,00 = 1h</P>
         <P>R$ 6,00 = 2h</P>
         <P>R$ 9,00 = 3h</P>
         <P>R$ 12,00 = 4h</P>
-
-        <h2>Deposite o dinheiro para conseguir a vaga.</h2>
-    </article>
-    <main>
-        <input type="number" id="valorDeposito" placeholder="Valor a depositar"> <br>
-
-        <button onclick="parquimetro.parquimetro()">Depositar</button>
-
-        <p id="horasNoParquimetro">Você tem: 0h no parquimetro</p>
-        <p id="troco"></p>
-    </main>
-    <article></article>
+    </footer>
 </body>
 </html>

@@ -1,35 +1,56 @@
-class parquimetro {
-     #dinheiro;
+class Parquimetro {
+  #dinheiro;
     constructor(){
-        this.#dinheiro = 0;
-
+        this.#dinheiro = 0
     }
+
+    depositar(valor){
+    this.#dinheiro += valor
+    
+}
+
+    horas(){
+    return Math.floor(this.#dinheiro / 3);
+}
+
+    troco(){
+        return this.#dinheiro % 3
+  }
+
+  get dinheiro (){
+        return this.#dinheiro;
+    }
+}
+
+class ParquimetroMostrar {
+    constructor(){
+}
 
     depositar(){
-        const valorDeposito = parseFloat(document.getElementById("valorDeposito").value);
-        if (valorDeposito <= 0)
-        alert ("digite um valor valido");
-        return
-    }
+        
+        const deposito = parseFloat(document.getElementById("valorDeposito").value);
+        parquimetro.depositar(deposito);
 
-    this.#dinheiro += valorDeposito;
-
-    this.horas();   
-    this.troco();
-
-    horas(valorHoras){
-        this.#dinheiro (depositar / 3) = valorHoras;
-        document.getElementById("horasNoParquimetro").textContent = `você tem ${valorHoras} no parquimetro`;
-    }
-
-    troco(valorTroco){
-    this.#dinheiro (depositar - 3*3) = valorTroco;
+        if (isNaN(deposito) || deposito <= 0) {
+        alert("Digite um valor maioor que zero!");
+        return;
+}
     
-    document.getElementById("troco").textContent = `seu troco é de: R$ ${valorTroco}`;
+        this.horas();
+        this.troco();
 }
 
+    horas(){
+          
+        const horas = parquimetro.horas()
+        document.getElementById("horasNoParquimetro").textContent = `Você tem ${horas}h no parquimetro`;
+    }
+
+    troco(){
+        const seuTroco = parquimetro.troco()
+        document.getElementById("troco").textContent = `Seu troco é de: R$ ${seuTroco}`;
+    }
 }
 
-
-const parquimetros = new parquimetro();
-
+const parquimetro = new Parquimetro()
+const parquimetroMostrar = new ParquimetroMostrar()
