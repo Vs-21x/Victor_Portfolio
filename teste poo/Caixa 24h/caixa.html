@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa 24h</title>
+    <link rel="stylesheet" href="caixa.css">
+    <script src="caixa.js"></script>
+</head>
+<body>
+    
+<header> 
+        <P><h1>Caixa 24h</h1> </P>
+
+</header>
+
+    <main>
+        <P id="saldo">Saldo: R$ 0,00 </P>   
+
+        <input type="number" id="valorDeposito" placeholder="Valor a depositar"> <br>
+
+        <button onclick="caixaEletronico.depositar()">Depositar</button>
+
+        <input type="number" id="valorSaque" placeholder="Valor a sacar"> <br>
+
+        <button onclick="caixaEletronico.sacar()">Sacar</button>
+    </main>
+</body>
+</html>
