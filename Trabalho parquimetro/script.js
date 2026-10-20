@@ -5,19 +5,36 @@ class Parquimetro {
     }
 
     depositar(valor){
-    this.#dinheiro += valor
+    this.#dinheiro = valor
     
 }
 
     horas(){
-    return Math.floor(this.#dinheiro / 3);
+
+    if(this.#dinheiro >= 3){
+    return 120;}
+    if(this.#dinheiro >= 1.75){
+    return 60;}
+    if(this.#dinheiro >= 1){
+    return 30;}
+    return 0;
 }
 
     troco(){
-        return this.#dinheiro % 3
-  }
 
-  get dinheiro (){
+    if(this.#dinheiro >= 3){
+        return this.#dinheiro - 3;
+}
+    if(this.#dinheiro >= 1.75){
+        return this.#dinheiro - 1.75;
+}
+    if(this.#dinheiro >= 1){
+        return this.#dinheiro - 1;
+}
+    return 0;
+}
+
+    get dinheiro (){
         return this.#dinheiro;
     }
 }
@@ -29,13 +46,12 @@ class ParquimetroMostrar {
     depositar(){
         
         const deposito = parseFloat(document.getElementById("valorDeposito").value);
+        if (isNaN(deposito) || deposito < 1) {
+        alert("Valor insuficiente");
+        return;
+    }
         parquimetro.depositar(deposito);
 
-        if (isNaN(deposito) || deposito <= 0) {
-        alert("Digite um valor maioor que zero!");
-        return;
-}
-    
         this.horas();
         this.troco();
 }
@@ -43,7 +59,7 @@ class ParquimetroMostrar {
     horas(){
           
         const horas = parquimetro.horas()
-        document.getElementById("horasNoParquimetro").textContent = `Você tem ${horas}h no parquimetro`;
+        document.getElementById("horasNoParquimetro").textContent = `Você tem ${horas} minutos no parquimetro`;
     }
 
     troco(){
