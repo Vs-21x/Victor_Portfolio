@@ -13,22 +13,19 @@ Aplicativo para controle financeiro pessoal, com registro de despesas e receitas
 ### 3. Nota Escola
 Sistema de controle de notas escolares, com cálculo de média e histórico.
 
-### 4. Site de Musiva
-Website institucional da Musiva, escola de música. Página com apresentação da escola, serviços e informações para visitantes.
-
-### 5. Trabalho Jogo
+### 4. Trabalho Jogo
 Projeto de jogo web interativo com interface gráfica.
 
-### 6. Trabalho Parquímetro
+### 5. Trabalho Parquímetro
 Aplicação de controle de parquímetro urbano.
 
-### 7. Portfólio Pessoal
+### 6. Portfólio Pessoal
 Página de apresentação com seção de contato.
 
-### 8. Teste POO (C#)
+### 7. Teste POO (C#)
 Exercícios de Programação Orientada a Objetos em C#, incluindo projeto de caixa eletrônico e veículos.
 
-### 9. Trabalho IMC
+### 8. Trabalho IMC
 Calculadora de Índice de Massa Corporal (IMC).
 
 ## Tecnologias Utilizadas
