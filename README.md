@@ -23,7 +23,7 @@ Aplicação de controle de parquímetro urbano.
 Página de apresentação com seção de contato.
 
 ### 7. Teste POO (C#)
-Exercícios de Programação Orientada a Objetos em C#, incluindo projeto de caixa eletrônico e veículos.
+Exercícios de Programação Orientada a Objetos, incluindo projeto de caixa eletrônico e veículos.
 
 ### 8. Trabalho IMC
 Calculadora de Índice de Massa Corporal (IMC).
@@ -31,14 +31,14 @@ Calculadora de Índice de Massa Corporal (IMC).
 ## Tecnologias Utilizadas
 
 - Frontend: HTML5, CSS3, JavaScript
-- Backend: C# / .NET
+- Backend: Java
 - Versionamento: Git, GitHub
 
 ## Sobre Mim
 
 - Nome: Victor Soares
 - Localização: Teresópolis, Rio de Janeiro, Brasil
-- Idade: 21
+- Idade: 21 anos
 - Interesses: Programação, ciência de dados, cibersegurança, cloud (Azure)
 
 ## Como Executar
